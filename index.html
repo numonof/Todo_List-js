@@ -8,14 +8,13 @@
         <title>Todo List</title>
     </head>
     <body>
-        <header class="header ">
+        <header class="header" id="header">
             <h4 class="full-day" id="full-day">00:00:00</h4>
             <div class="time-conatiner">
                 <span class="hour" id="hour">Hh</span> :
                 <span class="minute" id="minute">Mm</span> :
                 <span class="second" id="second">Sc</span>
             </div>
-            
             <h1 class="title">Todo List</h1>
             <small class="my-link">
                 by :
@@ -38,7 +37,7 @@
                             >
                             <span id="message-create" class="text-denger"></span>
                         </div>
-                        <button class="btn btn-outline">add</button>
+                        <button id="create-btn" class="btn btn-outline">add</button>
                     </form>
                     <ul class="list-group" id="list-group-todo"></ul>
                     <!-- Modal -->
@@ -57,7 +56,7 @@
                                             class="form-control"
                                             autocomplete="off"
                                         >
-                                        <span id="message-edit" class="text-denger">Lorem, ipsum dolor.</span>
+                                        <span id="message-edit" class="text-denger"></span>
                                         <button type="submit" class="form-btn">
                                             Save Changes
                                         </button>
